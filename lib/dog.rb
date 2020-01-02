@@ -1,11 +1,11 @@
 class Dog 
 end 
 
-def name=(name)
-  @name = name 
+def name=(fido)
+  @name = fido 
 end 
 
-def bark=(bark)
+def bark
   @bark = bark 
   puts "woof!"
 end 
